@@ -1,1 +1,21 @@
-/* styles go here */
+form {
+  margin-top: 20px 0;
+}
+
+div {
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+fieldset {
+  margin-bottom: 20px;
+}
+
+fieldset :last-child {
+  margin-bottom: 0;
+}
+
+div > input:last-of-type {
+  margin-bottom: 0 0;
+  padding-bottom: 0 0;
+}
